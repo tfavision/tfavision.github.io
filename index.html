@@ -1,4 +1,4 @@
-<html lang="en">
+<!-- <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +14,7 @@
             <img src="media/logo_128.jpg" alt="Project Image">
         </div>
         <div class="description">
-            <img src="media/bikde_det.png" alt="Image description" width="300" height="200">
+            <img src="media/bikde_det.png" alt="Image description" width="100%">
             <h2> Introduction </h2>
             <p>
                 TFAVision presents an innovative solution that addresses a critical need in urban planning and infrastructure development. We are providing the traffic engineers with a continuous data stream for non-motorist (bikes & pedestrians) traffic flow. This helps in taking major infrastructure decisions based on sound data-driven analysis.
@@ -48,7 +48,35 @@
     </footer>
 
 </body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video and Text Example</title>
+    <style>
+        .video-container {
+            margin-bottom: 20px; /* Add spacing between videos and text */
+        }
+    </style>
+</head>
+<body>
+    <h2>Details</h2>
+    <div class="video-container">
+        <video controls width="50%">
+            <source src="media/bikes_detection.mp4" type="video/mp4">
+        </video>
+        <strong>Bike counting</strong> is done using computer vision algorithms which tracks the bikers captured via motion sensitive cameras.
+    </div>
+    <div class="video-container">
+        <video controls width="50%">
+            <source src="media/3d_smith_road.mp4" type="video/mp4">
+        </video>
+        We are also collecting high quality 3D-Lidar data of Tempe city for <strong>Bicycle Infrastructure Assessment</strong>
+    </div>
+</body>
 </html>
-
-
 
